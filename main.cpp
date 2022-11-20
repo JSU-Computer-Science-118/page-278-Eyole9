@@ -1,4 +1,4 @@
-include <iostream>
+#include <iostream>
 #include <string>
 #include <iomanip>
 using namespace std;
@@ -12,7 +12,7 @@ int main()
   int toxesSold;
   double costOfOneBox;
   cout << fixed << showpoint << setprecision(2);
-  cout << "Enter each volunteer's name and " << "number of boxes " << endl << " sold by each volunteer, ending " << "with -1: " << endl;  
+   
   totalNumOfBoxesSold = 0;
   numOfVolunteers = 0;
   cin >> name;
