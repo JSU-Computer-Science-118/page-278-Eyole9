@@ -12,7 +12,7 @@ int main()
   int toxesSold;
   double costOfOneBox;
   cout << fixed << showpoint << setprecision(2);
-  cout << "Enter each volunteer's name and " << "the number of boxes " << endl << " sold by each volunteer, ending " << "with -1: " << endl;  
+  cout << "Enter each volunteer's name and " << "number of boxes " << endl << " sold by each volunteer, ending " << "with -1: " << endl;  
   totalNumOfBoxesSold = 0;
   numOfVolunteers = 0;
   cin >> name;
@@ -20,7 +20,7 @@ int main()
   { 
     cin >> numOfBoxesSold;
     totalNumOfBoxesSold = totalNumOfBoxesSold + numOfBoxesSold;
-numOfVolunteers++;Lexus 19
+numOfVolunteers++;
     
 cin >> name; }
 cout << endl;
@@ -32,5 +32,4 @@ cout << "Total number of boxes sold " << totalNumOfBoxesSold << endl;
 if (numOfVolunteers != 0)                           {cout << "Average number of "<< "boxes sold by each volunteer: " << totalNumOfBoxesSold / numOfVolunteers << endl;}
 else
     {cout << "No input." << endl;           return 0;}
-  }  
   } 
