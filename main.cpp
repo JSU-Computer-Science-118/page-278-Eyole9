@@ -32,5 +32,5 @@ cout << "Total number of boxes sold " << totalNumOfBoxesSold << endl;
 if (numOfVolunteers != 0)                           {cout << "Average number of "<< "boxes sold by each volunteer: " << totalNumOfBoxesSold / numOfVolunteers << endl;}
 else
     {cout << "No input." << endl;           return 0;}
-  } 
+  }  
   } 
