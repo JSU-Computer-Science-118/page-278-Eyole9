@@ -1,3 +1,4 @@
+  
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -25,10 +26,10 @@ numOfVolunteers++;
 cin >> name; }
 cout << endl;
 cout << "Total number of boxes sold: " << totalNumOfBoxesSold << endl;
-  cout << " Enter the cost of one box: ";
+
   cin >> costOfOneBox;
   cout << endl;
-  cout << "Total money made "<<"$" << totalNumOfBoxesSold * costOfOneBox << endl;
+  cout << "Total money made; "<<"$" << totalNumOfBoxesSold * costOfOneBox << endl;
 if (numOfVolunteers != 0)                           {cout << "Average number of "<< "boxes sold by each person: " << totalNumOfBoxesSold / numOfVolunteers << endl;}
 else
     {cout << "No input." << endl;           return 0;}
