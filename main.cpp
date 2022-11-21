@@ -1,5 +1,4 @@
-  
-#include <iostream>
+ #include <iostream>
 #include <string>
 #include <iomanip>
 using namespace std;
@@ -29,7 +28,7 @@ cout << "Total number of boxes sold: " << totalNumOfBoxesSold << endl;
 
   cin >> costOfOneBox;
   cout << endl;
-  cout << "Total money made; "<<"$" << totalNumOfBoxesSold * costOfOneBox << endl;
+  cout << "Total money made: "<<"$" << totalNumOfBoxesSold * costOfOneBox << endl;
 if (numOfVolunteers != 0)                           {cout << "Average number of "<< "boxes sold by each person: " << totalNumOfBoxesSold / numOfVolunteers << endl;}
 else
     {cout << "No input." << endl;           return 0;}
