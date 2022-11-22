@@ -1,4 +1,4 @@
- #include <iostream>
+#include <iostream>
 #include <string>
 #include <iomanip>
 using namespace std;
@@ -24,7 +24,7 @@ numOfVolunteers++;
     
 cin >> name; }
 cout << endl;
-cout << "Total number of boxes sold: " << totalNumOfBoxesSold << endl;
+cout << "Total number of boxes sold: " << totalNumOfBoxesSold;
 
   cin >> costOfOneBox;
   cout << endl;
